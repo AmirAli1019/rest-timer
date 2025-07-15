@@ -2,7 +2,6 @@ import tkinter as tk
 from tkinter import messagebox
 from tkinter import ttk
 import re
-from PIL import Image, ImageTk
 
 timer_btn_color = '#00bc00'
 id = None
