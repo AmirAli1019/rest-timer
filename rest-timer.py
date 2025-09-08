@@ -1,5 +1,6 @@
+#!/bin/python3
 import tkinter as tk
-from tkinter import messagebox
+from tkinter import PhotoImage, messagebox
 from tkinter import ttk
 import re
 
@@ -30,6 +31,9 @@ def start():
 
 window = tk.Tk()
 window.title(APP_TITLE)
+
+icon = tk.PhotoImage(file='icon.png')
+window.iconphoto(True, icon)
 
 frm = tk.Frame(bd=5)
 minutes_lbl = tk.Label(frm,text = 'Time in minutes:')
