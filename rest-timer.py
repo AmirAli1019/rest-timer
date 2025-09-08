@@ -1,4 +1,13 @@
 #!/bin/python3
+
+"""This is a simple and small but useful GUI application that notifies you 
+to give your eyes a rest after the time you specify.
+
+https://github.com/AmirAli104/rest-timer
+
+License: MIT License
+"""
+
 import tkinter as tk
 from tkinter import messagebox
 from tkinter import ttk
